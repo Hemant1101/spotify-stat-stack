@@ -5,14 +5,41 @@
           box-sizing: border-box;
 }
 
-.h1 {
-  font-size: 10rem;
-  color: darkgreen;
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #0a0a0a), color-stop(110%, #1ed760));
+  background: linear-gradient(180deg, #0a0a0a 10%, #1ed760 110%);
 }
 
-.App {
-  height: 100vh;
-  width: 100vw;
-  background-color: #141414;
+.header {
+  width: 100%;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 35px 5%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .logo {
+  font-size: 3rem;
+  color: #1ed760;
+}
+
+.header .login {
+  padding: 10px 15px;
+  width: 100px;
+  height: 50px;
+  border: 0;
+  border-radius: 3px;
+  color: #0a0a0a;
+  font-size: 1.325rem;
+  background-color: #1ed760;
 }
 /*# sourceMappingURL=Global.css.map */
